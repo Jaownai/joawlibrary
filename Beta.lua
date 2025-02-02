@@ -23,7 +23,7 @@ local Mouse = LocalPlayer:GetMouse()
 
 -- Platform detection
 local function detectMobilePlatform()
-    if Services.RunService:IsStudio() then
+    if game:GetService("RunService"):IsStudio() then
         return false
     end
     
