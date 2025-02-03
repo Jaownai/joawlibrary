@@ -750,7 +750,7 @@ local Library = {
 	Acrylic = false,
 	Transparency = true,
 	MinimizeKeybind = nil,
-	MinimizeKey = Enum.KeyCode.End,
+	MinimizeKey = Enum.KeyCode.F,
 }
 
 local function isMotor(value)
